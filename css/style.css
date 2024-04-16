@@ -9,11 +9,15 @@ body{
     height: 100vh;
     width: 100%;
     padding: 2%;
+    color: rgb(255, 255, 255);
+    background-image: url("/storage/img/textura.jpg");
 }
 header{
     display: flex;
     justify-content: center;
     padding: 3%;
+    background: black;
+    border-radius: 10px;
 }
 article{
     display: grid;
@@ -23,6 +27,7 @@ article{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     justify-content: center;
+    background: rgb(73, 1, 1);
 }
 div{
     padding: 2%;
@@ -50,8 +55,8 @@ button{
     justify-content: center;
     width: 50%;
     height: 50vh;
-    background: white;
     border: 1px solid black;
+    background-image: url(/storage/img/textura2.jpg);
     padding: 10px;
     margin: auto;
     top: 0;
@@ -60,8 +65,14 @@ button{
     left: 0;
     z-index: 10;
     display: none;
-}  
+    font-size: 1.9rem;
+}
 img {
     width: 50%;
     height: 40vh;
+}
+.x{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
